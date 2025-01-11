@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>בחירת סדרות</title>
+    <link rel="stylesheet" type="text/css" href="StyleTv.css">
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+    <h1>סדרות</h1>
+    
+    <!-- טבלה של הסדרות -->
+    <table>
+        <tr>
+            <td data-category="גיבורי-על ופעולה">החץ <button class="toggle-btn" onclick="toggleCheck(this)">✖</button></td>
+            <td data-category="גיבורי-על ופעולה">הפלאש <button class="toggle-btn" onclick="toggleCheck(this)">✖</button></td>
+            <td data-category="קומדיה">איך פגשתי את אמא <button class="toggle-btn" onclick="toggleCheck(this)">✖</button></td>
+            <td data-category="קומדיה">חברים <button class="toggle-btn" onclick="toggleCheck(this)">✖</button></td>
+        </tr>
+        <tr>
+            <td data-category="קומדיה">סופרסטור <button class="toggle-btn" onclick="toggleCheck(this)">✖</button></td>
+            <td data-category="אנימציה">משפחת סימפסון <button class="toggle-btn" onclick="toggleCheck(this)">✖</button></td>
+            <td data-category="מדע בדיוני ופנטזיה">אווטאר <button class="toggle-btn" onclick="toggleCheck(this)">✖</button></td>
+            <td data-category="אנימציה">איש משפחה <button class="toggle-btn" onclick="toggleCheck(this)">✖</button></td>
+        </tr>
+        <tr>
+            <td data-category="דרמה ומתח">רעבים <button class="toggle-btn" onclick="toggleCheck(this)">✖</button></td>
+            <td data-category="גיבורי-על ופעולה">לוציפר <button class="toggle-btn" onclick="toggleCheck(this)">✖</button></td>
+            <td data-category="דרמה ומתח">נמלטים <button class="toggle-btn" onclick="toggleCheck(this)">✖</button></td>
+            <td data-category="קומדיה">קופה ראשית <button class="toggle-btn" onclick="toggleCheck(this)">✖</button></td>
+        </tr>
+        <tr>
+            <td data-category="מדע בדיוני ופנטזיה">דברים מוזרים <button class="toggle-btn" onclick="toggleCheck(this)">✖</button></td>
+            <td data-category="קומדיה">ברוקלין 99 <button class="toggle-btn" onclick="toggleCheck(this)">✖</button></td>
+            <td data-category="נוער ישראליות">גאליס <button class="toggle-btn" onclick="toggleCheck(this)">✖</button></td>
+            <td data-category="נוער ישראליות">השמינייה <button class="toggle-btn" onclick="toggleCheck(this)">✖</button></td>
+        </tr>
+        <tr>
+            <td data-category="מדע בדיוני ופנטזיה">המאה <button class="toggle-btn" onclick="toggleCheck(this)">✖</button></td>
+            <td data-category="נוער ישראליות">האי <button class="toggle-btn" onclick="toggleCheck(this)">✖</button></td>
+            <td data-category="נוער ישראליות">החממה <button class="toggle-btn" onclick="toggleCheck(this)">✖</button></td>
+            <td data-category="מדע בדיוני ופנטזיה">מניפסט <button class="toggle-btn" onclick="toggleCheck(this)">✖</button></td>
+        </tr>
+    </table>
+
+    <button id="endButton" style="display: none;" onclick="window.location.href='EndTv.html'">המלצה</button>
+    <button id="backButton" onclick="window.location.href='homepg.html'">חזרה לבית</button>
+
+    <script src="TvScript.js"></script>
+</body>
+</html>

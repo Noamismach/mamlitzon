@@ -1,0 +1,31 @@
+body { margin: 0; text-align: center; line-height: 1.5; }
+h1, h2 { margin: 0; }
+.about-link {
+    font-size: 30px;
+    text-decoration: none;
+}
+body {
+    background-image: url('https://wallpaperaccess.com/full/701802.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+h1, h2 {
+    color: black;
+}
+
+.link-box {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #00ffde;
+    text-decoration: none; 
+    border-radius: 5px; 
+}
+
+.link-box:hover {
+    background-color: #00bfae;
+}

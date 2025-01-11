@@ -1,0 +1,82 @@
+body { margin: 0; text-align: center; line-height: 1.5; }
+h1, p { margin: 0; }
+.back-link { font-size: 30px; text-decoration: none; }
+.social-links a { display: inline-block; margin-right: 20px; }
+.social-links img { vertical-align: middle; }
+.about-text { font-size: 24px; line-height: 1.6; }
+body {
+    background-image: url('https://www.hdwallpapers.in/download/landscape_mountains_trees_forest_blue_sky_minimalist_background_hd_minimalist-HD.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+h1, h2, h3 {
+    color: black; 
+}
+
+p {
+    color: black; 
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-links img {
+    vertical-align: middle;
+}
+
+.about-text {
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+.back-link {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+body {
+    background-image: url('https://www.hdwallpapers.in/download/landscape_mountains_trees_forest_blue_sky_minimalist_background_hd_minimalist-HD.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+h1, h2, h3 {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-links img {
+    vertical-align: middle;
+}
+
+.about-text {
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+.back-link {
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #00ffde; 
+    padding: 10px 20px;
+    border-radius: 5px; 
+    position: fixed;
+    right: 10px; 
+    bottom: 10px;
+}

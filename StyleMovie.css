@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    width: 25%; /* 100% / 4 columns */
+    height: 80px;
+    border: 1px solid black;
+}
+
+button {
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.checked {
+    background-color: green;
+}

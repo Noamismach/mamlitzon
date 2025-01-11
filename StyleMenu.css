@@ -1,0 +1,41 @@
+body {
+    background-image: url('https://wallpaperbat.com/img/634690-minimal-morning-landscape-8k-8k-hd-4k-wallpaper-image-background-photo-and-picture.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+.menu-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* מרחק בין הלינקים */
+    margin-top: 20px;
+}
+
+.menu-link {
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    background-color: #00ffde; /* רקע כחול */
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.back-link {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    background-color: #00ffde;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
